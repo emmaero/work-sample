@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: var(--color-white);
+  overflow-x: hidden;
+}
+h3 {
+  font-size: 1rem;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body,
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  direction: ltr;
+}
+body {
+  img {
+    width: 100%;
+  }
+}
+body::-webkit-scrollbar {
+  width: 4px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #333333;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #ffff;
+}
+

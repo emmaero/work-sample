@@ -1,0 +1,25 @@
+header {
+  background-color: #000000;
+  color: #ffffff;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  nav {
+    max-width: 600px;
+    margin: auto;
+    display: none;
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+    }
+  }
+}
+@media (min-width: 750px) {
+  header {
+    nav {
+      display: block;
+    }
+  }
+}
